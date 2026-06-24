@@ -1,0 +1,11 @@
+language: python
+
+python:
+  - "3.12"
+
+install:
+  - pip install -r backend/requirements.txt
+
+script:
+  - python --version
+  - echo "Pipeline Travis ejecutado correctamente"
